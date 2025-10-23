@@ -1,0 +1,86 @@
+# 🧹 Projeto Data Wrangling & Pipeline – Análise de Vendas
+
+Squad Katherine Johnson 
+
+Bootcamp Business Intelligence - WoMakersCode e Instituto Localiza
+
+---
+
+## 👩‍🚀 Squad Katherine Johnson
+Este projeto foi desenvolvido pelo Squad Katherine Johnson como parte do desafio prático do módulo Data Wrangling & Pipeline, com o objetivo de aplicar técnicas de Data Wrangling e ETL (Extração, Transformação e Carga) , utilizando Python, Pandas, NumPy e SQLite no Google Colab.
+
+---
+
+## 🎯 Objetivo do Projeto
+O Squad teve como meta processar e analisar um conjunto de dados de vendas, partindo de um arquivo CSV bruto até a criação de um banco de dados relacional.  O projeto demonstra o fluxo completo de tratamento de dados e a importância da preparação antes da etapa de modelagem.
+
+---
+
+## ⚙️ Etapas do Pipeline
+
+1. Extração:  
+   - Leitura do arquivo `vendas.csv` com `pandas`.  
+   - Inspeção inicial das colunas e tipos de dados.
+
+2. Transformação: 
+   - Padronização das datas para o formato `YYYY-MM-DD`.  
+   - Substituição de valores ausentes por `'Não Informado'`.  
+   - Conversão de textos para números na coluna `quantidade`.  
+   - Correção de valores negativos e criação da coluna `valor_total`.
+
+3. Carga:  
+   - Criação do banco de dados `vendas.db` com as tabelas `tb_vendas` e `tb_clientes`, relacionadas via FK.
+
+4. Validação :  
+   - Consulta SQL de verificação.  
+---
+
+## 🧰 Tecnologias Utilizadas
+- 🐍 Python 3.12
+- ☁️ Google Colab
+- 🧮 Pandas
+- 🔢 Numpy
+- 🗃️ SQLite3
+- 💾 Google Drive (armazenamento e persistência de arquivos)
+
+---
+
+## 📊 Resultados
+A Squad conseguiu:
+- Limpar e padronizar dados brutos de vendas;  
+- Construir um banco relacional entre clientes e vendas;  
+- Fazer uma consulta SQL no Google Colab;
+
+Essas etapas consolidaram o aprendizado em **manipulação de dados**, **boas práticas com pandas** e **integração com bancos de dados**.
+
+---
+
+## 👩‍💻 Integrantes da Squad Katherine Johnson
+- Alessandra Batista de Jesus  
+- Ana Clara de Souza Cruz
+- Anita Flávia Gomes de Souza  
+- Belmira Leite dos Reis Valle  
+- Carolina Cavalcante Lima  
+- Cecília Mesquita Ribeiro  
+- Letycia Andrade Locha  
+- Paula Chidiac Schuster  
+- Thainara Meneghelli  
+
+---
+
+
+## 📂 Estrutura do Repositório
+
+📁 Data-Wrangling-Pipeline/
+
+├── vendas.csv
+
+├── vendas.db
+
+├── pipeline.py
+
+└── README.md
+
+
+---
+
